@@ -236,18 +236,55 @@ body {
 }
 
 
+/* Run an Extra style */
 
-.akash {}
 
-.akash {}
+.run {
+    max-width: 1044px;
+    margin: 0px auto;
+    margin-top: 100px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    gap: 165px;
+    align-items: center;
+}
 
-.akash {}
+.run-contant {
+    padding-left: 54px;
+}
 
-.akash {}
+.run-title {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+}
 
-.akash {}
+.run-des {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 14px;
+}
 
-.akash {}
+.run-button {
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px;
+    color: white;
+    border: none;
+    margin-top: 30px;
+}
+
+.run-images {
+    max-width: 366px;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.run-images>img {
+    width: 100%;
+    border-radius: 8px;
+}
 
 .akash {}
 
@@ -318,11 +355,23 @@ body {
     .section-hading {
         font-size: 32px;
     }
+
     .habits-card-des {
         max-width: 200px;
         margin: 6px auto;
     }
-    .habits-contant{
+
+    .habits-contant {
         flex-direction: column;
+    }
+
+    .run {
+        flex-direction: column;
+        padding-top: 34px;
+        gap: 20px;
+    }
+
+    .run-button {
+        width: 85%;
     }
 }
