@@ -29,11 +29,25 @@ body {
     display: none;
 }
 
+.section-hading {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.section-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 14px;
+}
 
 /* navbar style */
 
 .header {
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
     padding-top: 57px;
 }
 
@@ -83,9 +97,8 @@ body {
 .banner {
     max-width: 1060px;
     margin: 0px auto;
-    align-items: center;
     display: flex;
-    gap: 80px;
+    gap: 147px;
     margin-top: 90px;
     align-items: center;
 }
@@ -142,6 +155,7 @@ body {
     background: rgba(255, 255, 255, 0.1);
     margin-left: 215px;
     margin-top: 100px;
+    text-align: center;
 }
 
 .workout-video>h4 {
@@ -164,6 +178,7 @@ body {
     background: rgba(255, 255, 255, 0.1);
     width: 100px;
     margin-top: 200px;
+    margin-left: -60px;
 }
 
 .tutorial-video>h4 {
@@ -178,19 +193,49 @@ body {
     font-weight: 400;
 }
 
-.akash {}
 
-.akash {}
+/* habits style */
+.habits {
+    margin-top: 100px;
+}
 
-.akash {}
+.habits-hader {
+    max-width: 635px;
+    text-align: center;
+    margin: 0px auto;
+}
 
-.akash {}
+.habits-contant {
+    max-width: 1044px;
+    margin: 0px auto;
+    display: flex;
+    margin-top: 50px;
+    gap: 40px;
+}
 
-.akash {}
+.habits-card {
+    text-align: center;
+}
 
-.akash {}
+.habits-card-img {
+    border-radius: 50%;
+}
 
-.akash {}
+.habits-card-title {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.habits-card-des {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 6px;
+}
+
+
 
 .akash {}
 
@@ -239,7 +284,7 @@ body {
     }
 
     .banner-contant {
-        width: 100%;
+        width: 90%;
         margin-left: 20px;
     }
 
@@ -248,14 +293,36 @@ body {
         max-width: 285px;
         margin-bottom: 28px;
     }
-    .banner-des{
+
+    .banner-des {
         max-width: 250px;
     }
+
     .banner-images {
         margin-left: 20px;
     }
 
     .btn-download-app {
         margin-top: 10px;
+    }
+
+    .workout-video {
+        margin-left: 163px;
+        margin-top: 60px;
+    }
+
+    .tutorial-video {
+        margin-left: 0px;
+    }
+
+    .section-hading {
+        font-size: 32px;
+    }
+    .habits-card-des {
+        max-width: 200px;
+        margin: 6px auto;
+    }
+    .habits-contant{
+        flex-direction: column;
     }
 }
