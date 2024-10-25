@@ -1,18 +1,261 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background: #000000;
     background-repeat: no-repeat;
     color: white;
+    font-family: "Inter", sans-serif;
 }
 
-.container{
+.container {
     max-width: 1440px;
     margin: 0px auto;
 }
-.flex{
+
+/* share style */
+
+.flex {
     display: flex;
 }
-.navbar{
+
+.font-maima {
+    font-family: 'Miama', sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+
+/* navbar style */
+
+.header {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    padding-top: 57px;
+}
+
+.navbar {
     justify-content: space-between;
     max-width: 1060px;
     margin: 0px auto;
+    align-items: center;
+}
+
+.web-name {
+    color: #E6533C;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.nav-contant {}
+
+.nav-contant nav {}
+
+.nav-contant nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-contant nav ul li {
+    list-style: none;
+}
+
+.nav-contant nav ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.acctive-nav {
+    background: #E6533C;
+    padding: 8px 20px;
+    border-radius: 46px;
+}
+
+
+/* banner style */
+
+.banner {
+    max-width: 1060px;
+    margin: 0px auto;
+    align-items: center;
+    display: flex;
+    gap: 80px;
+    margin-top: 90px;
+    align-items: center;
+}
+
+.banner-contant {
+    width: 51%;
+}
+
+.banner-title {
+    color: rgb(255, 255, 255);
+    font-size: 78px;
+    font-weight: 900;
+}
+
+.banner-des {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 28px;
+}
+
+.banner-button {}
+
+.btn-join-club {
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px;
+    color: white;
+    border: none;
+}
+
+.btn-download-app {
+    border-radius: 42px;
+    padding: 16px 40px;
+    color: white;
+    border: none;
+    background: transparent;
+    border: 1px solid white;
+    margin-left: 15px;
+}
+
+.banner-images {
+    background: url(../images/banner-img.png);
+    background-repeat: no-repeat;
+    background-size: 268px;
+    padding-bottom: 40px;
+}
+
+.workout-video {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    margin-left: 215px;
+    margin-top: 100px;
+}
+
+.workout-video>h4 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.workout-video>p {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.tutorial-video {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    width: 100px;
+    margin-top: 200px;
+}
+
+.tutorial-video>h4 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.tutorial-video>p {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.akash {}
+
+.akash {}
+
+.akash {}
+
+.akash {}
+
+.akash {}
+
+.akash {}
+
+.akash {}
+
+.akash {}
+
+.akash {}
+
+.akash {}
+
+.akash {}
+
+.akash {}
+
+.akash {}
+
+.akash {}
+
+.akash {}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width : 576px) {
+    .navbar {
+        margin: 0px 10px;
+    }
+
+    .nav-contant {
+        display: none;
+    }
+
+    .icon {
+        display: block;
+        font-size: 30px;
+    }
+
+    .banner {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .banner-contant {
+        width: 100%;
+        margin-left: 20px;
+    }
+
+    .banner-title {
+        font-size: 36px;
+        max-width: 285px;
+        margin-bottom: 28px;
+    }
+    .banner-des{
+        max-width: 250px;
+    }
+    .banner-images {
+        margin-left: 20px;
+    }
+
+    .btn-download-app {
+        margin-top: 10px;
+    }
 }
