@@ -286,6 +286,132 @@ body {
     border-radius: 8px;
 }
 
+
+/* bmi style */
+.bmi {
+    background: #222222;
+    margin-top: 80px;
+}
+
+.bmi-container {
+    max-width: 1060px;
+    margin: 0px auto;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+
+.bmi-contant {}
+
+.bmi-contant-title {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.bmi-info {}
+
+.bmi-info table {
+    border-collapse: collapse;
+}
+
+.bmi-info table tbody {}
+
+.bmi-info table tbody tr {}
+
+.bmi-info table tbody tr th {
+    border: 1px solid gray;
+    text-align: left;
+    padding: 14px 40px 14px 14px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bmi-info table tbody tr td {
+    border: 1px solid gray;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    padding: 13px 0px 13px 13px;
+}
+
+.bmi-calculat {
+    max-width: 530px;
+    margin: 0px auto;
+}
+
+.calculat-hading {}
+
+.calculat-hading>h1 {
+    font-size: 28px;
+}
+
+
+.bmi-input-groop {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-top: 30px;
+}
+
+#bmi-full-w-input {
+    grid-column: span 2;
+}
+
+.bmi-input {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px 40px 12px 20px;
+    border: none;
+    outline: none;
+}
+
+.bmi-input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bmi-input>option {
+    font-size: 16px;
+    color: black;
+    font-weight: 400;
+}
+
+.select-color {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.calcu-button {
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px;
+    color: white;
+    border: none;
+    margin-top: 30px;
+}
+
+.bmi-section-hading {
+    max-width: 600px;
+    margin: 60px auto 0px;
+}
+
+.akash {}
+
+.akash {}
+
+.akash {}
+
+.akash {}
+
+.akash {}
+
+.akash {}
+
+.akash {}
+
 .akash {}
 
 .akash {}
@@ -372,6 +498,14 @@ body {
     }
 
     .run-button {
-        width: 85%;
+        width: 85%;
+    }
+    .bmi-container{
+        flex-direction: column;
+        margin-left: 20px;
+        gap: 40px;
+    }
+    .bmi-input{
+        width: 60%;
     }
 }
