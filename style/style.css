@@ -551,11 +551,49 @@ body {
     font-weight: 400;
 }
 
-.akash {}
 
-.akash {}
+/* about us section style */
+.about-us {
+    margin-top: 100px;
+}
 
+.about-contanier {
+    max-width: 1060px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 26px;
+    background: rgb(34, 34, 34);
+    padding: 40px 20px;
+    border-radius: 16px;
+}
 
+.about-contant {
+    flex-grow: 1;
+    max-width: 47%;
+}
+
+.about-des {}
+
+.about-images {
+    max-width: 47%;
+    border-radius: 20px;
+}
+
+.about-images img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.about-text {
+    margin-top: 32px;
+    color: #958c8c;
+    font-size: 14px;
+}
+
+.about-us-color {
+    color: rgb(230, 83, 60);
+}
 
 
 
@@ -662,7 +700,21 @@ body {
     .footer-nav-title {
         margin-top: 50px;
     }
-    .teem-info{
-        width: 280px;
+
+    .teem-info {
+
+        width: 100%;
+    }
+
+    .about-contanier {
+        flex-direction: column;
+    }
+
+    .about-contant {
+    max-width: 100%;
+    }
+
+    .about-images {
+        max-width: 100%;
     }
 }
