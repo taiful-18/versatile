@@ -423,13 +423,12 @@ body {
 }
 
 .teem-info {
-    width: 326px;
+    width: 335px;
     height: 272px;
     background: url(../images/trainer1.png);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 18px;
-
 }
 
 .teem-title {
@@ -449,28 +448,34 @@ body {
     flex-direction: column;
     gap: 0px;
 }
-#teem-info-1{}
-#teem-info-2{
+
+#teem-info-1 {}
+
+#teem-info-2 {
     background: url(../images/trainer2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-#teem-info-3{
+
+#teem-info-3 {
     background: url(../images/trainer3.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-#teem-info-4{
+
+#teem-info-4 {
     background: url(../images/trainer4.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-#teem-info-5{
+
+#teem-info-5 {
     background: url(../images/trainer5.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-#teem-info-6{
+
+#teem-info-6 {
     background: url(../images/trainer6.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -482,6 +487,68 @@ body {
 
 .footer {
     background: rgba(255, 255, 255, 0.1);
+    padding-top: 60px;
+    margin-top: 80px;
+}
+
+.footer-contant {
+    max-width: 1060px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-about {
+    max-width: 400px;
+}
+
+.footer-about>h1 {
+    color: rgb(230, 83, 60);
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.footer-about>p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.footer-nav-title {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.fot-nev {
+    margin-top: 40px;
+}
+
+.fot-nev li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.fot-nev li a {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 23px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.copyright {
+    text-align: center;
+    padding: 35px 0px;
+}
+
+.copyright h3 {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .akash {}
@@ -582,7 +649,20 @@ body {
     .bmi-input {
         width: 60%;
     }
-    .teem-contant{
-        grid-template-columns: repeat(1 , 1fr);
+
+    .teem-contant {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-contant {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .footer-nav-title {
+        margin-top: 50px;
+    }
+    .teem-info{
+        width: 280px;
     }
 }
